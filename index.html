@@ -4,11 +4,17 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
 <title>Villa Raha — Luxury Villa in Zanzibar</title>
-<meta name="description" content="Villa Raha is a private 5-bedroom luxury villa in Jambiani, Zanzibar. Infinity pool, ocean views, personal concierge. Book your escape today."/>
+<meta name="description" content="Villa Raha is a private 5-bedroom luxury villa in Jambiani, Zanzibar. Private pool, personal concierge, direct beach access. Book your escape today."/>
 <meta property="og:title" content="Villa Raha — Zanzibar"/>
-<meta property="og:description" content="A private luxury villa perched on the edge of Zanzibar's turquoise coast. 5 king suites, infinity pool, direct beach access."/>
-<meta property="og:image" content="images/aerialJambianiBeach.jpg"/>
+<meta property="og:description" content="A private luxury villa perched on the edge of Zanzibar's turquoise coast. 5 king suites, private pool, direct beach access."/>
+<meta property="og:image" content="https://villarahajambiani.com/images/aerialJambianiBeach.jpg"/>
+<meta property="og:url" content="https://villarahajambiani.com/"/>
 <meta property="og:type" content="website"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Villa Raha — Zanzibar"/>
+<meta name="twitter:description" content="A private luxury villa perched on the edge of Zanzibar's turquoise coast. 5 king suites, private pool, direct beach access."/>
+<meta name="twitter:image" content="https://villarahajambiani.com/images/aerialJambianiBeach.jpg"/>
+<link rel="canonical" href="https://villarahajambiani.com/"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet"/>
@@ -991,7 +997,7 @@ footer p { font-size: 0.6rem; color: var(--muted); letter-spacing: 0.1em; }
 
 <!-- ── NAV ── -->
 <nav id="main-nav">
-  <a href="#hero" class="nav-logo"></a>
+  <a href="#hero" class="nav-logo">Villa Raha</a>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#features">Amenities</a></li>
@@ -1000,7 +1006,7 @@ footer p { font-size: 0.6rem; color: var(--muted); letter-spacing: 0.1em; }
     <li><a href="#location">Location</a></li>
   </ul>
   <a href="#contact" class="nav-cta">Enquire</a>
-  <button class="nav-burger" id="burger" aria-label="Open menu" aria-expanded="false">
+  <button class="nav-burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">
     <span></span><span></span><span></span>
   </button>
 </nav>
@@ -1028,7 +1034,7 @@ footer p { font-size: 0.6rem; color: var(--muted); letter-spacing: 0.1em; }
 <div class="announce-card" id="announceCard" role="status" aria-live="polite">
   <button class="announce-card__dismiss" id="announceDismiss" aria-label="Dismiss">✕</button>
   <div class="announce-card__eyebrow">Coming Soon</div>
-  <div class="announce-card__title">Launching end of June 2026</div>
+  <div class="announce-card__title">Launching soon</div>
   <div class="announce-card__body">This site previews the finished villa. Enquiries are welcome now — we'd love to hear from you.</div>
 </div>
 
@@ -1047,9 +1053,9 @@ footer p { font-size: 0.6rem; color: var(--muted); letter-spacing: 0.1em; }
   <div class="hero-right">
     <img src="images/about_1.png" alt="Aerial view of Jambiani Beach, Zanzibar" loading="eager"/>
     <!-- LAUNCH BADGE (Option B) -->
-    <div class="launch-badge" aria-label="Opening end of June 2026">
+    <div class="launch-badge" aria-label="Opening soon, 2026">
       <div class="launch-badge__top">Opening</div>
-      <div class="launch-badge__main">End of<br>June</div>
+      <div class="launch-badge__main">Soon</div>
       <div class="launch-badge__date">2026</div>
     </div>
   </div>
@@ -1060,7 +1066,7 @@ footer p { font-size: 0.6rem; color: var(--muted); letter-spacing: 0.1em; }
 <div class="stats-bar">
   <div class="stat"><div class="stat-num">5</div><div class="stat-label">Bedrooms</div></div>
   <div class="stat"><div class="stat-num">10</div><div class="stat-label">Guests</div></div>
-  <div class="stat"><div class="stat-num">∞</div><div class="stat-label">Ocean View</div></div>
+  <div class="stat"><div class="stat-num">1</div><div class="stat-label">Private Pool</div></div>
   <div class="stat"><div class="stat-num">15′</div><div class="stat-label">To Beach</div></div>
   <div class="stat"><div class="stat-num">24/7</div><div class="stat-label">Concierge</div></div>
 </div>
@@ -1071,7 +1077,7 @@ footer p { font-size: 0.6rem; color: var(--muted); letter-spacing: 0.1em; }
     <div class="about-wrap">
       <div class="about-imgs reveal-left">
         <img class="img-main" src="images/about_1.png" alt="Villa Raha pool and terrace" loading="lazy"/>
-        <img class="img-accent" src="images/about_2.png" alt="Villa Raha interior" loading="lazy"/>
+        <img class="img-accent" src="images/about_2.jpeg" alt="Villa Raha interior" loading="lazy"/>
         <div class="about-badge"><span>5★</span><span>Luxury Villa</span></div>
       </div>
       <div class="about-text reveal">
@@ -1094,11 +1100,11 @@ footer p { font-size: 0.6rem; color: var(--muted); letter-spacing: 0.1em; }
       <p class="s-body">Raha is fully equipped so that nothing stands between you and pure relaxation.</p>
     </div>
     <div class="amenities-grid reveal">
-      <div class="amenity"><div class="amenity-icon">🏊</div><h3>Private Infinity Pool</h3><p>A stunning infinity pool hovering over the ocean — swim at dawn or sip cocktails poolside as the sun dips below the horizon.</p></div>
+      <div class="amenity"><div class="amenity-icon">🏊</div><h3>Private Pool</h3><p>A stunning private pool set among the gardens — swim at dawn or sip cocktails poolside as the sun dips below the horizon.</p></div>
       <div class="amenity"><div class="amenity-icon">🌊</div><h3>Direct Beach Access</h3><p>Step through your private garden and onto one of Zanzibar's most pristine white-sand beaches in just 15 minutes.</p></div>
-      <div class="amenity"><div class="amenity-icon">🛏️</div><h3>5 King Suites</h3><p>Five en-suite bedrooms dressed in locally-sourced textiles and hand-carved furniture, each with its own ocean view.</p></div>
+      <div class="amenity"><div class="amenity-icon">🛏️</div><h3>5 King Suites</h3><p>Five en-suite bedrooms dressed in locally-sourced textiles and hand-carved furniture.</p></div>
       <div class="amenity"><div class="amenity-icon">🍽️</div><h3>Fully Equipped Kitchen</h3><p>A professional kitchen stocked daily. Optional personal chef available upon request for an authentic Swahili feast.</p></div>
-      <div class="amenity"><div class="amenity-icon">🌅</div><h3>Panoramic Ocean Views</h3><p>Wake up to the Indian Ocean stretching endlessly before you. Every room frames the sea like a living painting.</p></div>
+      <div class="amenity"><div class="amenity-icon">🌴</div><h3>Lush Garden Views</h3><p>Wake up surrounded by tropical greenery and swaying palms. Every room frames the garden like a living painting.</p></div>
       <div class="amenity"><div class="amenity-icon">🛵</div><h3>Concierge & Transfers</h3><p>Airport pickup, excursion planning, private boat charters, spice tours — we arrange it all so you can focus on the moments.</p></div>
       <div class="amenity"><div class="amenity-icon">📶</div><h3>High-Speed WiFi</h3><p>Reliable high-speed internet throughout the villa, because even paradise sometimes needs a connection.</p></div>
       <div class="amenity"><div class="amenity-icon">🧖</div><h3>Outdoor Terrace & Lounge</h3><p>Shaded open-air terraces with daybeds and lounge areas — perfect for afternoons lulled by the sound of waves.</p></div>
@@ -1114,8 +1120,8 @@ footer p { font-size: 0.6rem; color: var(--muted); letter-spacing: 0.1em; }
   </div>
   <div class="gallery-strip reveal">
     <div class="g-cell tall" data-label="Aerial View"><img src="images/house_aerial.png" alt="Aerial view of Villa Raha" loading="lazy"/></div>
-    <div class="g-cell" data-label="Villa Exterior"><img src="images/mwezi-boutique-resort.jpg" alt="Villa exterior" loading="lazy"/></div>
-    <div class="g-cell" data-label="Interior"><img src="images/about_2.png" alt="Villa interior" loading="lazy"/></div>
+    <div class="g-cell" data-label="Villa Exterior"><img src="images/about_3.png" alt="Villa exterior" loading="lazy"/></div>
+    <div class="g-cell" data-label="Interior"><img src="images/about_2.jpeg" alt="Villa interior" loading="lazy"/></div>
     <div class="g-cell" data-label="Jambiani Beach"><img src="images/fieflyimage.png" alt="Jambiani beach" loading="lazy"/></div>
     <div class="g-cell" data-label="Terrace"><img src="images/about_1.png" alt="Terrace and pool" loading="lazy"/></div>
     <div class="g-cell" data-label="Zanzibar Coast"><img src="https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?w=800&q=80" alt="Zanzibar coast" loading="lazy"/></div>
@@ -1184,7 +1190,7 @@ footer p { font-size: 0.6rem; color: var(--muted); letter-spacing: 0.1em; }
       <div class="c-card">
         <span class="c-icon">✉️</span>
         <div class="c-label">Email</div>
-        <div class="c-val"><a href="/cdn-cgi/l/email-protection#264449494d4f484166504f4a4a4754474e470845494b"><span class="__cf_email__" data-cfemail="64060b0b0f0d0a0324120d08080516050c054a070b09">[email&#160;protected]</span></a></div>
+        <div class="c-val"><a href="mailto:info@villarahajambiani.com">info@villarahajambiani.com</a></div>
       </div>
       <div class="c-card">
         <span class="c-icon">📱</span>
@@ -1201,7 +1207,7 @@ footer p { font-size: 0.6rem; color: var(--muted); letter-spacing: 0.1em; }
       </a>
       </div>
     </div>
-    <a href="/cdn-cgi/l/email-protection#7c1e13131715121b3c0a1510101d0e1d141d521f1311" class="contact-cta reveal"><span>Send an Enquiry</span></a>
+    <a href="mailto:info@villarahajambiani.com" class="contact-cta reveal"><span>Send an Enquiry</span></a>
   </div>
 </section>
 
@@ -1220,7 +1226,7 @@ footer p { font-size: 0.6rem; color: var(--muted); letter-spacing: 0.1em; }
   </div>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
 /* ── Sticky nav ── */
 const nav = document.getElementById('main-nav');
 const backToTop = document.getElementById('backToTop');
